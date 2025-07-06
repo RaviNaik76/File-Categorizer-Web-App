@@ -1,0 +1,41 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="file"] {
+  margin: 1rem 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.unnamed {
+  color: red;
+  font-weight: bold;
+}
+
+.total-match {
+  color: blue;
+  font-weight: bold;
+}
+
+.actual-total {
+  color: green;
+  font-weight: bold;
+}
